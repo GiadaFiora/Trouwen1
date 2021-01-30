@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Trouwjurken</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="Trouwen.css">
+
+     <style>
+     /* Make the image fully responsive */
+     .carousel-inner img {
+       width: 100%;
+       height: 100%;
+     }
+     </style>
+
+   </head>
+   <body>
+<!-- navbar -->
+   <nav class="navbar navbar-inverse">
+
+            <div class="container-fluid">
+               <div class="navbar-header">
+                <a class="navbar-brand"><img src="logo.jpg" width="100" height="100"><Logo</a>
+              </div>
+<!--plek voor iet leuks in navbar-->
+
+
+
+                 <nav class="navbar navbar-expand-sm bg-light" id="myNavbar">
+                  <ul class="nav navbar-nav">
+        <!-- Nav pills -->
+                  <div class="container">
+                   <ul class="nav nav-pills" role="tablist">
+                     <li class="nav-item">
+                       <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" data-toggle="pill" href="#lange-trouwjurken">lange trouwjurken</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" data-toggle="pill" href="#Korte-trouwjurken">Korte trouwjurken</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" data-toggle="pill" href="#pakken">pakken</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" data-toggle="pill" href="#extra-informatie">extra informatie</a>
+                     </li>
+                   </ul>
+
+                   <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                      login
+                    </button>
+
+
+                    <!-- The Modal -->
+                    <div class="modal fade" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">login</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                              <form action="/action_page.php">
+                                  <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                  </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                </div>
+
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">vrouw
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">man
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">anders
+                                </label>
+                              </div>
+
+                              <div class="form-group form-check">
+                                  <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                  </label>
+                              </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+
+                          </div>
+
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+
+                        </div>
+                      </div>
+
+                 </div>
+               </div>
+            </div>
+
+       </nav>
+
+       <div class="container-fluid text-center">
+            <div class="row content">
+              <div class="col-sm-2 sidenav">
+      <div id="sidebar">Een zijbalk</div>
+
+</div>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="potato.png" alt="Los Angeles" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="potato.png" alt="Chicago" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="potato.png" alt="New York" width="1100" height="500">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <header>
+
+         <!--coole pop up-->
+         <div class="alert alert-succes alert-dismissible fade show">
+           <div class="spinner-grow text-light"></div>
+       <button type="button" class="close" data-dismiss="alert">&times;</button>
+     <strong>Success!</strong> ik hoop dat je jouw perfecte trouwkleren kan vinden</a>.
+       </div>
+
+  </header>
+
+
+  <footer>
+<!--nog plek voor leuke dingen-->
+
+</footer>
+
+
+   </body>
+   </html>
