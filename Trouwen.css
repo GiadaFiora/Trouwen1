@@ -1,4 +1,3 @@
-
 .container-fluid {
   background-color: #white;
 }
@@ -26,3 +25,21 @@ li {
 .navbar {
   background-color: #F9E8EA;
 }
+
+.nav-link {
+  background-color: #F9E8EA;
+}
+
+.container {
+  background-color: #C84A56;
+}
+
+.navbar-nav {
+  background-color: #C84A56;
+}
+
+.btn-primary {
+  background-color: #F9E8EA;
+}
+
+
