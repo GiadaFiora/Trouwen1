@@ -1,0 +1,60 @@
+.container-fluid {
+  background-color: #white;
+}
+
+.gLFyf {
+  background-color: #white;
+}
+
+
+#sidebar {
+  width:auto;
+  height: 678px;
+  background-color: #DF949B;
+}
+
+li {
+  display: inline;
+}
+
+#navbar {
+  width: auto;
+  margin: 2px;
+  background-color: #F9E8EA;
+}
+
+.navbar {
+  background-color: #F9E8EA;
+}
+
+.nav-link {
+  background-color: #C84A56;
+}
+
+.container {
+  background-color: #F9E8EA;
+}
+
+.navbar-nav {
+  background-color: #F9E8EA;
+}
+
+.btn-primary {
+  background-color: #C84A56;
+}
+
+
+.nav {
+  background-color: #F9E8EA;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
