@@ -58,3 +58,57 @@ li {
   padding: 20px;
   color: white;
 }
+
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 250px;
+  margin-bottom: 50px;
+}
+
+.col-4 img{
+  width: 100%;
+
+}
+
+.title{
+  text-align: center;
+  position: relative;
+  line-height: 60px;
+  color: black;
+  left: 275%
+}
+
+.title::after{
+  content: '';
+  background: #DF949B;
+  width: 80px;
+  height: 5px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4{
+  color: yellow;
+  font-weight: normal;
+}
+
+.col-4 p{
+  font-size: 14px;
+}
+
+.rating .fa{
+  color: #DF949B
+}
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
